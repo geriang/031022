@@ -5,30 +5,23 @@ background-color: salmon;
 }
 
 #box-1 {
-
     height:200px;
     width:200px;
     background-color: red;
 }
 
 
-@media screen and (max-width:600px) {
-
+@media screen and (max-width:600px) 
+{
     #bgc {
-
         background-color: brown;
-    
     }
-
-    
 }
 
-@media screen and (min-width:600px) {
-
+@media screen and (min-width:600px) 
+{
     #bgc {
-
         background-color: gold;
-    
     }
 
     #box-1 {
@@ -38,19 +31,16 @@ background-color: salmon;
     
 }
 
-@media screen and (min-width:900px) {
+@media screen and (min-width:900px)
+ {
 
     #bgc {
-
         background-color:violet;
-    
     }
 
     #box-1 {
         display: block;
     }
-
-
     
 }
 
